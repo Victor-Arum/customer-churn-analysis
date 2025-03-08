@@ -44,9 +44,12 @@ Customer churn is a serious issue in business. If customers are leaving a busine
     - Tenure-based churn patterns
 3. **Data Visualisation using Power BI**
 - Created a detailed 3-page dashboard covering:
-  - **Overview:** A big picture of the company's financial performance and churn breakdown
-  - **Who is Churning?**: Churn based on contract type, tenure, payment method, and internet service
-  - **Why Are Customers Leaving?**: A deeper look at what's causing customers to leave.
+  - **Overview:** A big picture of the company's financial performance and churn breakdown.  
+    ![Overview Dashboard](./screenshots/churn_overview_dashboard.png)
+  - **Who is Churning?**: Churn based on contract type, tenure, payment method, and internet service.  
+    ![Who is Churning Dashboard](./screenshots/churn_dashboard_who_is_churning.png)
+  - **Why Are Customers Leaving?**: A deeper look at what's causing customers to leave.  
+    ![Why Are Customers Leaving Dashboard](./screenshots/churn_drivers_dashboard.png)
  
 ## Key Insights
 ### ✅ High Churn Rate Is a Major Business Risk
