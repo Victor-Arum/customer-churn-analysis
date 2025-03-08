@@ -35,18 +35,18 @@ Customer churn is a serious issue in business. If customers are leaving a busine
     - Services
     - Billings
     - Churn
-**2. Data Analysis using SQL**
+2. **Data Analysis using SQL**
 - Joined tables to create a single customer view.
 - Used CTEs, subqueries, and aggregations to calculate:
     - Overall churn rate
     - Monthly revenue and lost revenue from churn
     - Payment method, internet service, and contract type-based churn rates
     - Tenure-based churn patterns
-**3. Data Visualisation using Power BI**
+3. **Data Visualisation using Power BI**
 - Created a detailed 3-page dashboard covering:
-  - Overview: A big picture of the company's financial performance and churn breakdown
-  - Who is Churning?: Churn based on contract type, tenure, payment method, and internet service
-  - Why Are Customers Leaving?: A deeper look at what's causing customers to leave.
+  - **Overview:** A big picture of the company's financial performance and churn breakdown
+  - **Who is Churning?**: Churn based on contract type, tenure, payment method, and internet service
+  - **Why Are Customers Leaving?**: A deeper look at what's causing customers to leave.
  
 ## Key Insights
 ### ✅ High Churn Rate Is a Major Business Risk
@@ -69,20 +69,20 @@ Customer churn is a serious issue in business. If customers are leaving a busine
 - Customers with both security and backup services have the lowest churn at 10.57%
 
 ## Business Impact
-💡 $2.86M in lost revenue → Reducing churn among month-to-month customers could recover over $1.93M in lost revenue. They can be encouraged to get on 1 or 2-year contracts.
-💡 Fiber optic customers are valuable but at high risk - improving retention among these customer group could stabilise revenue.
-💡 Reducing payment friction (e.g. encouraging auto-pay with credit cards or bank transfers) could help reduce churn.
+💡 $2.86M in lost revenue → Reducing churn among month-to-month customers could recover over $1.93M in lost revenue. They can be encouraged to get on 1 or 2-year contracts.  
+💡 Fiber optic customers are valuable but at high risk - improving retention among these customer group could stabilise revenue.  
+💡 Reducing payment friction (e.g. encouraging auto-pay with credit cards or bank transfers) could help reduce churn.  
 💡 Lower churn among bundled security and backup services customers indicates a potential strategy for reducing churn through better packaging.
 
 ## How to Use This Project
-**1. Download the dataset:** The dataset is available in the repo for reproducibility.
-**2. Set Up the Database**: Create a new database in SQL Server and load the dataset using the Import Wizard into a staging table (Staging_Telco).
-**3. Run the SQL scripts:** Open the SQL script from the repo and execute them to create tables, populate data, and perform analysis.
-**4. Open the Power BI Dashboard:** Open the .pbix file in Power BI Desktop and have a look at the dashboards:
+1. **Download the dataset:** The dataset is available in the repo for reproducibility.
+2. **Set Up the Database**: Create a new database in SQL Server and load the dataset using the Import Wizard into a staging table (Staging_Telco).
+3. **Run the SQL scripts:** Open the SQL script from the repo and execute them to create tables, populate data, and perform analysis.
+4. **Open the Power BI Dashboard:** Open the .pbix file in Power BI Desktop and have a look at the dashboards:
 - **Overview**: A big picture of the company's financial performance and churn breakdown.
 - **Who is Churning**: A deep dive into churn breakdown based on several factors.
 - **Why Are Customers Leaving**: Root causes of customer churn at Telco.
-**5. Explore Insights:** The dashboard shows key insights and trends. Adjust filters and slicers to uncover patterns.
+5. **Explore Insights:** The dashboard shows key insights and trends. Adjust filters and slicers to uncover patterns.
 
 ## Future Work
 - Use machine learning to predict churn risk.
