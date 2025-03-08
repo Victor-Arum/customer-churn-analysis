@@ -99,4 +99,4 @@ Customer churn is a serious issue in business. If customers are leaving a busine
 This project is a comprehensive churn analysis that demonstrates deep analytical skills and business-level insights using SQL and Power BI.
 
 ## Links
-- [Project Repo](url)
+- [Project Repo](https://github.com/Victor-Arum/customer-churn-analysis/)
